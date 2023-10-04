@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Card from "../Card/Card";
+import styles from "./UserInput.module.css";
 const UserInput = (props) => {
   const initialData = {
     "user-name": "",
