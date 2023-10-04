@@ -7,13 +7,37 @@ form {
 label {
   display: inline-block;
   height: 50%;
+  font-size: large;
+  color: #010149;
 }
 input {
   width: 100%;
   height: 1.5rem;
   font-size: 1rem;
+  border: none;
+  outline: none;
+  color: #010149;
+  font-weight: bold;
+
+  font-family: "Sofia Sans Condensed", sans-serif;
 }
 button {
-  width: 3rem;
+  background: #010149;
+  width: 4rem;
+  height: 2rem;
+  cursor: pointer;
   align-self: center;
+  transition: all 0.5s;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: bold;
+  color: aliceblue;
+}
+
+button:hover {
+  color: #010149;
+  background: aliceblue;
+}
+
+input:focus {
+  background: #bcbcef;
 }

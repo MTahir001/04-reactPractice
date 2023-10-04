@@ -12,7 +12,7 @@ const ErrorModal = (props) => {
   return (
     <div onClick={errorHandler} className={styles.wrapper}>
       <div className={styles.modal}>
-        <h2>{props.data.msg}</h2>
+        <h4>{props.data.msg}</h4>
         <div onClick={errorHandler} className={styles.btn}>
           OK
         </div>

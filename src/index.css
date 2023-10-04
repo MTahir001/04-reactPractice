@@ -1,9 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&family=Sofia+Sans+Condensed&display=swap");
+
 * {
   box-sizing: border-box;
 }
 
 html {
-  font-family: sans-serif;
+  font-family: "Sofia Sans Condensed", sans-serif;
+  color: aliceblue;
 }
 
 body {
@@ -11,4 +14,5 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background: #010149;
 }

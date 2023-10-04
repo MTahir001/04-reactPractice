@@ -12,12 +12,15 @@ function App() {
     console.log(userInput);
     setUserInput((prev) => {
       if (userInput["user-name"] === "" || userInput["user-age"] === "") {
-        setIsvalid({ flag: false, msg: "no value should be empty" });
+        setIsvalid({
+          flag: false,
+          msg: "Please, fill all the data (no value should be empty)",
+        });
         console.log(isValid);
         return prev;
       }
       if (userInput["user-age"] <= 0) {
-        setIsvalid({ flag: false, msg: "age cant be -ve" });
+        setIsvalid({ flag: false, msg: "Entered age is not valid" });
         return prev;
       }
 
