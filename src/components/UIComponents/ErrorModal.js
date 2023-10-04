@@ -1,4 +1,3 @@
-import { useState } from "react";
 import styles from "./ErrorModal.module.css";
 const ErrorModal = (props) => {
   const errorHandler = (e) => {
