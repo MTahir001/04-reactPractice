@@ -8,6 +8,9 @@ const UserInput = (props) => {
   };
   const [userInput, setUserInput] = useState(initialData);
   const inputChangeHandler = (identifier, value) => {
+    if (/\d/.test(value) && identifier === "user-name") {
+      return;
+    }
     setUserInput((prev) => ({ ...prev, [identifier]: value }));
   };
 
