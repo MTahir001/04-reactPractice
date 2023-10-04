@@ -1,0 +1,54 @@
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  height: 8rem;
+}
+label {
+  height: 50%;
+
+  font-size: large;
+  color: var(--main-primary);
+}
+input {
+  width: 100%;
+  height: 1.5rem;
+  padding-left: 8px;
+
+  border: none;
+  outline: none;
+
+  font-size: 1rem;
+  color: var(--main-primary);
+  font-weight: bold;
+  font-family: "Sofia Sans Condensed", sans-serif;
+}
+button {
+  width: 4rem;
+  height: 2rem;
+
+  align-self: center;
+
+  font-family: "Sofia Sans Condensed", sans-serif;
+  font-weight: bold;
+  color: var(--main-tertiary);
+
+  background: var(--main-primary);
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+button:hover {
+  color: var(--main-primary);
+  background: var(--main-tertiary);
+}
+
+input:focus {
+  background: var(--main-tertiary);
+}
+@media (max-width: 500px) {
+  button {
+    width: 100%;
+  }
+}
