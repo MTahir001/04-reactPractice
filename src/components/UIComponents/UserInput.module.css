@@ -47,3 +47,8 @@ button:hover {
 input:focus {
   background: var(--main-tertiary);
 }
+@media (max-width: 500px) {
+  button {
+    width: 100%;
+  }
+}

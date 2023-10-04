@@ -8,3 +8,10 @@
   background: var(--main-secondry);
   border-radius: 12px;
 }
+
+@media (max-width: 500px) {
+  .card {
+    width: 80vw;
+    min-width: 200px;
+  }
+}
